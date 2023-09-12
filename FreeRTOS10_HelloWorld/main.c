@@ -53,6 +53,8 @@ int main(void)
 	vDisplayWriteStringAtPos(2,0,"Template");
 	vDisplayWriteStringAtPos(3,0,"ResetReason: %d", reason);
 	vTaskStartScheduler();
+	
+	//Neue Zeilen...
 	return 0;
 }
 
